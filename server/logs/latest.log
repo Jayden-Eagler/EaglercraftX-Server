@@ -1,189 +1,1834 @@
-[19:00:18] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[19:00:18] [Server thread/INFO]: Loading properties
-[19:00:18] [Server thread/INFO]: Default game type: SURVIVAL
-[19:00:18] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[19:00:18] [Server thread/INFO]: Debug logging is disabled
-[19:00:18] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[19:00:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:06:33] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:06:33] [Server thread/INFO]: Loading properties
+[16:06:33] [Server thread/INFO]: Default game type: ADVENTURE
+[16:06:33] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:06:33] [Server thread/INFO]: Debug logging is disabled
+[16:06:33] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:06:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[19:00:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:00:18] [Server thread/INFO]: Data value allowed items: 
-[19:00:18] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[16:06:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:06:33] [Server thread/INFO]: Data value allowed items: 
+[16:06:33] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[19:00:18] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[16:06:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[19:00:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[16:06:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[19:00:18] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[16:06:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[19:00:18] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[16:06:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[19:00:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[16:06:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[19:00:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[16:06:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[19:00:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[16:06:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[19:00:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[16:06:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[19:00:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:06:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[19:00:18] [Server thread/INFO]: Generating keypair
-[19:00:18] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[19:00:18] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[19:00:18] [Server thread/INFO]: Using default channel type
-[19:00:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:00:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:00:18] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[19:00:18] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[19:00:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:00:18] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[19:00:18] [Server thread/INFO]: Preparing level "world"
-[19:00:18] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:00:18] [Server thread/INFO]: Mob Spawn Range: 4
-[19:00:18] [Server thread/INFO]: Anti X-Ray: true
-[19:00:18] [Server thread/INFO]: 	Engine Mode: 1
-[19:00:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:00:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:00:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:00:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:00:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:00:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:00:18] [Server thread/INFO]: Random Lighting Updates: false
-[19:00:18] [Server thread/INFO]: Structure Info Saving: true
-[19:00:18] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:00:18] [Server thread/INFO]: Max Entity Collisions: 8
-[19:00:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:00:18] [Server thread/INFO]: Max TNT Explosions: 100
-[19:00:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:00:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:00:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:00:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:00:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:00:18] [Server thread/INFO]: View Distance: 4
-[19:00:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:00:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:00:18] [Server thread/INFO]: Clear tick list: false
-[19:00:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:00:18] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:00:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:00:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:00:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:00:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:00:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:00:18] [Server thread/INFO]: Water over lava flow speed: 5
-[19:00:18] [Server thread/INFO]: Fix TNT cannons: false
-[19:00:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:00:18] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:00:18] [Server thread/INFO]: World async lighting: false
-[19:00:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:00:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:00:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:00:18] [Server thread/INFO]: Mob Spawn Range: 4
-[19:00:18] [Server thread/INFO]: Anti X-Ray: true
-[19:00:18] [Server thread/INFO]: 	Engine Mode: 1
-[19:00:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:00:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:00:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:00:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:00:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:00:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:00:18] [Server thread/INFO]: Random Lighting Updates: false
-[19:00:18] [Server thread/INFO]: Structure Info Saving: true
-[19:00:18] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:00:18] [Server thread/INFO]: Max Entity Collisions: 8
-[19:00:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:00:18] [Server thread/INFO]: Max TNT Explosions: 100
-[19:00:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:00:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:00:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:00:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:00:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:00:18] [Server thread/INFO]: View Distance: 4
-[19:00:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:00:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:00:18] [Server thread/INFO]: Clear tick list: false
-[19:00:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:00:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:00:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:00:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:00:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:00:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:00:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:00:18] [Server thread/INFO]: Water over lava flow speed: 5
-[19:00:18] [Server thread/INFO]: Fix TNT cannons: false
-[19:00:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:00:18] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:00:18] [Server thread/INFO]: World async lighting: false
-[19:00:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:00:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:00:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:00:18] [Server thread/INFO]: Mob Spawn Range: 4
-[19:00:18] [Server thread/INFO]: Anti X-Ray: true
-[19:00:18] [Server thread/INFO]: 	Engine Mode: 1
-[19:00:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:00:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:00:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:00:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:00:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:00:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:00:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:00:18] [Server thread/INFO]: Random Lighting Updates: false
-[19:00:18] [Server thread/INFO]: Structure Info Saving: true
-[19:00:18] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:00:18] [Server thread/INFO]: Max Entity Collisions: 8
-[19:00:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:00:18] [Server thread/INFO]: Max TNT Explosions: 100
-[19:00:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:00:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:00:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:00:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:00:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:00:18] [Server thread/INFO]: View Distance: 4
-[19:00:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:00:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:00:18] [Server thread/INFO]: Clear tick list: false
-[19:00:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:00:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:00:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:00:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:00:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:00:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:00:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:00:18] [Server thread/INFO]: Water over lava flow speed: 5
-[19:00:18] [Server thread/INFO]: Fix TNT cannons: false
-[19:00:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:00:18] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:00:18] [Server thread/INFO]: World async lighting: false
-[19:00:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:00:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:00:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4836461686104293424)
-[19:00:19] [Server thread/INFO]: Preparing spawn area: 40%
-[19:00:20] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4836461686104293424)
-[19:00:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4836461686104293424)
-[19:00:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:00:21] [Server thread/INFO]: Done (2.550s)! For help, type "help" or "?"
-[19:00:21] [Server thread/INFO]: Timings Reset
+[16:06:33] [Server thread/INFO]: Generating keypair
+[16:06:33] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:06:33] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:06:33] [Server thread/INFO]: Using default channel type
+[16:06:33] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:06:33] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.130
+[16:06:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[16:06:34] [Server thread/INFO]: [ColoredSigns] Loading ColoredSigns v2.0
+[16:06:34] [Server thread/INFO]: [Tebex] Loading Tebex v2.0.5
+[16:06:34] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[16:06:34] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[16:06:34] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[16:06:34] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:06:34] [Server thread/INFO]: [ItemCreator] Loading ItemCreator v2.3.0
+[16:06:34] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.5-SNAPSHOT
+[16:06:34] [Server thread/INFO]: [MassiveCore] Loading MassiveCore v2.8.2
+[16:06:34] [Server thread/INFO]: TimeUnit.MILLIS_PER_MINUTE: 60000
+
+[16:06:34] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[16:06:34] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[16:06:34] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.13-SNAPSHOT (build 1130)
+[16:06:34] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.5
+[16:06:34] [Server thread/ERROR]: Custom flags aren't supported in this version of WorldGuard! initializing SimpleScore v3.12.5 (Is it up to date?)
+java.lang.UnsupportedOperationException: Custom flags aren't supported in this version of WorldGuard!
+	at com.r4g3baby.simplescore.lib.wgwrapper.implementation.legacy.WorldGuardImplementation.registerFlag(WorldGuardImplementation.java:210) ~[?:?]
+	at com.r4g3baby.simplescore.lib.wgwrapper.WorldGuardWrapper.registerFlag(WorldGuardWrapper.java:27) ~[?:?]
+	at com.r4g3baby.simplescore.scoreboard.worldguard.WorldGuardAPI.init$SimpleScore(WorldGuardAPI.kt:19) ~[?:?]
+	at com.r4g3baby.simplescore.SimpleScore.onLoad(SimpleScore.kt:17) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:06:34] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+81-cde7184
+[16:06:34] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v2.5.0-SNAPSHOT-b418
+[16:06:34] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+91-e7a4167
+[16:06:34] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.13.1
+[16:06:34] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.9.0
+[16:06:34] [Server thread/INFO]: [CreativeGates] Loading CreativeGates v2.8.2
+[16:06:34] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b725
+[16:06:34] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v5.4.1
+[16:06:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.130
+[16:06:34] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[16:06:34] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.130[m
+
+[16:06:34] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[16:06:34] [Server thread/INFO]: [m
+
+[16:06:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:06:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:06:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:06:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:06:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1251ms)
+[16:06:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:06:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:06:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:06:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:06:35] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:06:35] [Server thread/INFO]: [MassiveCore] Enabling MassiveCore v2.8.2
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m=== ENABLE START ===[m
+
+[16:06:35] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.<clinit>(ReflectionUtil.java:20)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.SimpleConfig.load(SimpleConfig.java:83)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:182)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.SimpleConfig.load(SimpleConfig.java:83)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:182)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.SimpleConfig.load(SimpleConfig.java:83)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:182)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.SimpleConfig.load(SimpleConfig.java:83)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:182)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m14[0;33;1mms.[m
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getField(ReflectionUtil.java:62)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreEngineCommandRegistration.<clinit>(MassiveCoreEngineCommandRegistration.java:144)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:194)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getField(ReflectionUtil.java:62)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreEngineCommandRegistration.<clinit>(MassiveCoreEngineCommandRegistration.java:151)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:194)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MultiverseColl.init(MultiverseColl.java:36)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:201)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:202)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCoreMConfColl.init(MassiveCoreMConfColl.java:37)
+
+[16:06:35] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnable(MassiveCore.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[16:06:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m[0;32;1mActivated [0;33;1mintegration with [0;35;1mVault[m
+
+[16:06:35] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m319ms[0;33;1m) ===[m
+
+[16:06:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:06:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:06:35] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:06:35] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:06:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:06:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:06:35] [Server thread/INFO]: Preparing level "Lobby"
+[16:06:35] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[16:06:35] [Server thread/INFO]: Mob Spawn Range: 4
+[16:06:35] [Server thread/INFO]: Anti X-Ray: true
+[16:06:35] [Server thread/INFO]: 	Engine Mode: 1
+[16:06:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:06:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:06:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:06:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:06:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:06:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:06:35] [Server thread/INFO]: Random Lighting Updates: false
+[16:06:35] [Server thread/INFO]: Structure Info Saving: true
+[16:06:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:06:35] [Server thread/INFO]: Max Entity Collisions: 8
+[16:06:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:06:35] [Server thread/INFO]: Max TNT Explosions: 100
+[16:06:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:06:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:06:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:06:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:06:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:06:35] [Server thread/INFO]: View Distance: 4
+[16:06:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:06:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:06:35] [Server thread/INFO]: Clear tick list: false
+[16:06:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:06:35] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[16:06:35] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:06:35] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:06:35] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:06:35] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:06:35] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:06:35] [Server thread/INFO]: Water over lava flow speed: 5
+[16:06:35] [Server thread/INFO]: Fix TNT cannons: false
+[16:06:35] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:06:35] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:06:35] [Server thread/INFO]: World async lighting: false
+[16:06:35] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:06:35] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:06:35] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[16:06:35] [Server thread/INFO]: Mob Spawn Range: 4
+[16:06:35] [Server thread/INFO]: Anti X-Ray: true
+[16:06:35] [Server thread/INFO]: 	Engine Mode: 1
+[16:06:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:06:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:06:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:06:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:06:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:06:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:06:35] [Server thread/INFO]: Random Lighting Updates: false
+[16:06:35] [Server thread/INFO]: Structure Info Saving: true
+[16:06:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:06:35] [Server thread/INFO]: Max Entity Collisions: 8
+[16:06:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:06:35] [Server thread/INFO]: Max TNT Explosions: 100
+[16:06:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:06:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:06:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:06:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:06:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:06:35] [Server thread/INFO]: View Distance: 4
+[16:06:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:06:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:06:35] [Server thread/INFO]: Clear tick list: false
+[16:06:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:06:35] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[16:06:35] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:06:35] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:06:35] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:06:35] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:06:35] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:06:35] [Server thread/INFO]: Water over lava flow speed: 5
+[16:06:35] [Server thread/INFO]: Fix TNT cannons: false
+[16:06:35] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:06:35] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:06:35] [Server thread/INFO]: World async lighting: false
+[16:06:35] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:06:35] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:06:35] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[16:06:35] [Server thread/INFO]: Mob Spawn Range: 4
+[16:06:35] [Server thread/INFO]: Anti X-Ray: true
+[16:06:35] [Server thread/INFO]: 	Engine Mode: 1
+[16:06:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:06:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:06:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:06:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:06:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:06:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:06:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:06:35] [Server thread/INFO]: Random Lighting Updates: false
+[16:06:35] [Server thread/INFO]: Structure Info Saving: true
+[16:06:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:06:35] [Server thread/INFO]: Max Entity Collisions: 8
+[16:06:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:06:35] [Server thread/INFO]: Max TNT Explosions: 100
+[16:06:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:06:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:06:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:06:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:06:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:06:35] [Server thread/INFO]: View Distance: 4
+[16:06:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:06:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:06:35] [Server thread/INFO]: Clear tick list: false
+[16:06:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:06:35] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[16:06:35] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:06:35] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:06:35] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:06:35] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:06:35] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:06:35] [Server thread/INFO]: Water over lava flow speed: 5
+[16:06:35] [Server thread/INFO]: Fix TNT cannons: false
+[16:06:35] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:06:35] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:06:36] [Server thread/INFO]: World async lighting: false
+[16:06:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:06:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:06:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: -760377661239623204)
+[16:06:37] [Server thread/INFO]: Preparing spawn area: 72%
+[16:06:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: -760377661239623204)
+[16:06:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: -760377661239623204)
+[16:06:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[16:06:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:06:37] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:06:37] [Server thread/INFO]: [ColoredSigns] Enabling ColoredSigns v2.0
+[16:06:37] [Server thread/INFO]: [ColoredSigns] ColoredSigns enabling.
+[16:06:37] [Server thread/WARN]: [ColoredSigns] PermissionsEx support is disabled.
+[16:06:37] [Server thread/INFO]: [ColoredSigns] Starting services.. loading file and library's.
+[16:06:37] [Server thread/INFO]: [Tebex] Enabling Tebex v2.0.5
+[16:06:38] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:06:38] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:06:38] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[16:06:38] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[16:06:38] [Server thread/INFO]: [ClearLag] Loading modules...
+[16:06:38] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[16:06:38] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[16:06:38] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[16:06:38] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[16:06:38] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[16:06:38] [Server thread/INFO]: [ItemCreator] Enabling ItemCreator v2.3.0
+[16:06:38] [Server thread/INFO]: [ItemCreator] Loading ItemCreator v2.3.0 by ItsTheSky
+[16:06:38] [Server thread/INFO]: [ItemCreator] Registering parameters ...
+[16:06:38] [OkHttp https://plugin.tebex.io/.../INFO]: [Tebex] Connected to Eaglercraft with mods server - Minecraft (Offline/Geyser) server.
+[16:06:38] [Thread-10/INFO]: [ClearLag] No updates found!
+[16:06:38] [Server thread/INFO]: [ItemCreator] Registering Abilities ...
+[16:06:38] [Server thread/INFO]: [ItemCreator] Registering Properties ...
+[16:06:38] [Server thread/ERROR]: Error occurred while enabling ItemCreator v2.3.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: org/bukkit/attribute/Attribute
+	at info.itsthesky.itemcreator.ItemCreator.onEnable(ItemCreator.java:91) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.attribute.Attribute
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 12 more
+[16:06:38] [Server thread/INFO]: [ItemCreator] Disabling ItemCreator v2.3.0
+[16:06:38] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.5-SNAPSHOT
+[16:06:38] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[16:06:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:06:38] [Server thread/INFO]: Mob Spawn Range: 4
+[16:06:38] [Server thread/INFO]: Anti X-Ray: true
+[16:06:38] [Server thread/INFO]: 	Engine Mode: 1
+[16:06:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:06:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:06:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:06:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:06:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:06:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:06:38] [Server thread/INFO]: Random Lighting Updates: false
+[16:06:38] [Server thread/INFO]: Structure Info Saving: true
+[16:06:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:06:38] [Server thread/INFO]: Max Entity Collisions: 8
+[16:06:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:06:38] [Server thread/INFO]: Max TNT Explosions: 100
+[16:06:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:06:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:06:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:06:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:06:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:06:38] [Server thread/INFO]: View Distance: 4
+[16:06:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:06:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:06:38] [Server thread/INFO]: Clear tick list: false
+[16:06:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:06:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:06:38] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:06:38] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:06:38] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:06:38] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:06:38] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:06:38] [Server thread/INFO]: Water over lava flow speed: 5
+[16:06:38] [Server thread/INFO]: Fix TNT cannons: false
+[16:06:38] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:06:38] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:06:38] [Server thread/INFO]: World async lighting: false
+[16:06:38] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:06:38] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:06:38] [Server thread/INFO]: Preparing start region for level 3 (Seed: 4836461686104293424)
+[16:06:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:06:38] [Server thread/INFO]: Mob Spawn Range: 4
+[16:06:38] [Server thread/INFO]: Anti X-Ray: true
+[16:06:38] [Server thread/INFO]: 	Engine Mode: 1
+[16:06:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:06:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:06:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:06:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:06:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:06:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:06:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:06:38] [Server thread/INFO]: Random Lighting Updates: false
+[16:06:38] [Server thread/INFO]: Structure Info Saving: true
+[16:06:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:06:38] [Server thread/INFO]: Max Entity Collisions: 8
+[16:06:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:06:38] [Server thread/INFO]: Max TNT Explosions: 100
+[16:06:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:06:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:06:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:06:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:06:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:06:38] [Server thread/INFO]: View Distance: 4
+[16:06:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:06:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:06:38] [Server thread/INFO]: Clear tick list: false
+[16:06:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:06:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:06:38] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:06:38] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:06:38] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:06:38] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:06:38] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:06:38] [Server thread/INFO]: Water over lava flow speed: 5
+[16:06:38] [Server thread/INFO]: Fix TNT cannons: false
+[16:06:38] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:06:38] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:06:38] [Server thread/INFO]: World async lighting: false
+[16:06:38] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:06:38] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:06:38] [Server thread/INFO]: Preparing start region for level 4 (Seed: 4836461686104293424)
+[16:06:39] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: The Nether
+[16:06:39] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[16:06:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:06:39] [Server thread/INFO]: Mob Spawn Range: 4
+[16:06:39] [Server thread/INFO]: Anti X-Ray: true
+[16:06:39] [Server thread/INFO]: 	Engine Mode: 1
+[16:06:39] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:06:39] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:06:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:06:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:06:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:06:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:06:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:06:39] [Server thread/INFO]: Random Lighting Updates: false
+[16:06:39] [Server thread/INFO]: Structure Info Saving: true
+[16:06:39] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:06:39] [Server thread/INFO]: Max Entity Collisions: 8
+[16:06:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:06:39] [Server thread/INFO]: Max TNT Explosions: 100
+[16:06:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:06:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:06:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:06:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:06:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:06:39] [Server thread/INFO]: View Distance: 4
+[16:06:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:06:39] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:06:39] [Server thread/INFO]: Clear tick list: false
+[16:06:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:06:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:06:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:06:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:06:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:06:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:06:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:06:39] [Server thread/INFO]: Water over lava flow speed: 5
+[16:06:39] [Server thread/INFO]: Fix TNT cannons: false
+[16:06:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:06:39] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:06:39] [Server thread/INFO]: World async lighting: false
+[16:06:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:06:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:06:39] [Server thread/INFO]: Preparing start region for level 5 (Seed: 4836461686104293424)
+[16:06:39] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: The End
+[16:06:39] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[16:06:39] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[16:06:39] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[16:06:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is blocked.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_nether) TNT ignition is PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lighters are PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lava fire is blocked.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Fire spread is UNRESTRICTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_nether'
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) TNT ignition is PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lighters are PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lava fire is blocked.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Fire spread is UNRESTRICTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_the_end'
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[16:06:39] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:06:39] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:06:40] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.13-SNAPSHOT (build 1130)
+[16:06:40] [Server thread/ERROR]: [Citizens] v2.0.13-SNAPSHOT (build 1130) is not compatible with Minecraft v1.8.8 - try upgrading or downgrading Citizens. Disabling.
+[16:06:40] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.13-SNAPSHOT (build 1130)
+[16:06:40] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
+[16:06:40] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[16:06:40] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[16:06:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
+[16:06:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
+[16:06:40] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[16:06:40] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[16:06:40] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:06:40] [Server thread/INFO]: No kits found to migrate.
+[16:06:40] [Server thread/INFO]: Loaded 853 items from items.csv.
+[16:06:40] [Server thread/INFO]: Using locale en
+[16:06:40] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[16:06:40] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:06:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:06:40] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[16:06:40] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v2.5.0-SNAPSHOT-b418
+[16:06:40] [Server thread/ERROR]: [Multiverse-Inventories] Your Multiverse-Core is OUT OF DATE
+[16:06:40] [Server thread/ERROR]: [Multiverse-Inventories] This version of Multiverse-Inventories requires Protocol Level: 20
+[16:06:40] [Server thread/ERROR]: [Multiverse-Inventories] Your of Core Protocol Level is: 19
+[16:06:40] [Server thread/ERROR]: [Multiverse-Inventories] Grab an updated copy at: 
+[16:06:40] [Server thread/ERROR]: [Multiverse-Inventories] http://bukkit.onarandombox.com/?dir=multiverse-core
+[16:06:40] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b418
+[16:06:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+91-e7a4167
+[16:06:40] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[16:06:40] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:06:40] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.13.1
+[16:06:40] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.13.1 is loading...
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]       [server: git-PaperSpigot-445 (MC: 1.8.8)]
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.2
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]            Date Modified: 29 February 2024
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]                            
+[16:06:40] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_8_R3
+[16:06:40] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[16:06:41] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: playerpoints (PlayerPoints)
+[16:06:41] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set playerpoints as the active economy storage.
+[16:06:41] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[16:06:41] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[16:06:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[16:06:41] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[16:06:41] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.9.0
+[16:06:41] [Server thread/INFO]: [ServerSigns] Version 4.9.0 is now enabled.
+[16:06:41] [Server thread/INFO]: [CreativeGates] Enabling CreativeGates v2.8.2
+[16:06:41] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.8.2[0;36;22m] [0;33;1m=== ENABLE START ===[m
+
+[16:06:41] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:24)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:1)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConfColl.init(MConfColl.java:39)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.CreativeGates.onEnable(CreativeGates.java:78)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:41] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:24)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:1)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConfColl.init(MConfColl.java:39)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.CreativeGates.onEnable(CreativeGates.java:78)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:41] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:24)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:1)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConfColl.init(MConfColl.java:39)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.CreativeGates.onEnable(CreativeGates.java:78)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:41] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:24)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:1)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConfColl.init(MConfColl.java:39)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.CreativeGates.onEnable(CreativeGates.java:78)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:41] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "com.massivecraft.massivecore.util.ReflectionUtil.FIELD_DOT_MODIFIERS" is null
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.makeAccessible(ReflectionUtil.java:42)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.FieldAccessor.<init>(FieldAccessor.java:21)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.populate(Accessor.java:75)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.<init>(Accessor.java:61)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.accessor.Accessor.get(Accessor.java:53)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Entity.load(Entity.java:146)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:24)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConf.load(MConf.java:1)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.copy(Coll.java:196)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.loadFromRemoteFixed(Coll.java:581)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.initLoadAllFromRemote(Coll.java:794)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.massivecore.store.Coll.init(Coll.java:868)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.entity.MConfColl.init(MConfColl.java:39)
+
+[16:06:41] [Server thread/WARN]: 	at com.massivecraft.creativegates.CreativeGates.onEnable(CreativeGates.java:78)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[16:06:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[16:06:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:06:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:06:41] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.8.2[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m67ms[0;33;1m) ===[m
+
+[16:06:41] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5-b725
+[16:06:41] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5-b725 Enabled - By Rigby and fernferret
+[16:06:41] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: World (World Error, World did not exist or was not imported into Multiverse-Core!)
+[16:06:41] [Server thread/WARN]: [MVPLogging] Portal World has an invalid LOCATION!
+[16:06:41] [Server thread/WARN]: [MVPLogging] Portal 'World' not loaded due to invalid location!
+[16:06:41] [Server thread/INFO]: [MVPLogging] 2 - Portals(s) loaded
+[16:06:41] [Server thread/WARN]: [Multiverse-Core] Portal Obby1 has an invalid DESTINATION!
+[16:06:41] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[16:06:41] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v5.4.1
+[16:06:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:06:42] [Server thread/INFO]: Done (6.252s)! For help, type "help" or "?"
+[16:06:42] [Server thread/INFO]: Timings Reset
+[16:06:42] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:06:42] [Craft Scheduler Thread - 3/INFO]: §6Fetching version information...
+[16:06:42] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] [mChecking for updates...[m
+
+[16:06:42] [Craft Scheduler Thread - 5/INFO]: [Metrics] Connection refused
+[16:06:42] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:06:42] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[16:06:42] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[16:06:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
+[16:06:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:06:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[16:06:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[16:06:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[16:06:42] [Server thread/INFO]: [0;32;1m5 placeholder hook(s) registered![m
+
+[16:06:42] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] No update was found, you are running the latest version.[m
+
+[16:06:42] [Craft Scheduler Thread - 3/WARN]: §4You're §c10 §4EssentialsX dev build(s) out of date!
+[16:06:42] [Craft Scheduler Thread - 3/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[16:06:58] [Thread-14/INFO]: UUID of player jayden is f6fb9842-a114-32be-9d5b-850ff77382a7
+[16:06:58] [Server thread/INFO]: jayden[/[0:0:0:0:0:0:0:1]:44300] logged in with entity id 413 at ([world]222.3453877687726, 46.0, 160.82078082435825)
+[16:07:03] [Server thread/INFO]: jayden issued server command: /gm 1
+[16:07:30] [Server thread/INFO]: jayden issued server command: /itemcreator menu
+[16:08:25] [Server thread/INFO]: jayden issued server command: /ic menu
+[16:11:44] [Server thread/INFO]: jayden issued server command: //set air
+[16:12:15] [Server thread/INFO]: jayden issued server command: //set air
+[16:12:26] [Server thread/INFO]: jayden issued server command: //set air
+[16:12:42] [Server thread/INFO]: jayden issued server command: //set air
+[16:13:46] [Server thread/INFO]: jayden issued server command: //set air
+[16:14:09] [Server thread/INFO]: jayden issued server command: //set air
+[16:15:15] [Server thread/INFO]: jayden issued server command: //set air
+[16:15:34] [Server thread/INFO]: jayden issued server command: //set air
+[16:16:42] [Craft Scheduler Thread - 8/INFO]: [Metrics] Connection refused
+[16:18:27] [Server thread/INFO]: jayden issued server command: //set air
+[16:21:26] [Server thread/INFO]: jayden issued server command: //set air
+[16:22:56] [Server thread/INFO]: jayden issued server command: //set sealantern
+[16:24:11] [Server thread/INFO]: jayden issued server command: //set sealantern
+[16:24:43] [Server thread/INFO]: jayden issued server command: //set quartz
+[16:26:42] [Craft Scheduler Thread - 14/INFO]: [Metrics] Connection refused
+[16:34:49] [Server thread/INFO]: jayden issued server command: /stop
+[16:34:49] [Server thread/INFO]: [jayden: Stopping the server]
+[16:34:49] [Server thread/INFO]: Stopping server
+[16:34:49] [Server thread/INFO]: [SuperVanish] Disabling SuperVanish v5.4.1
+[16:34:49] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b725
+[16:34:49] [Server thread/INFO]: [CreativeGates] Disabling CreativeGates v2.8.2
+[16:34:49] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.8.2[0;36;22m] [0;33;1mDisabled[m
+
+[16:34:49] [Server thread/INFO]: [ServerSigns] Disabling ServerSigns v4.9.0
+[16:34:49] [Server thread/INFO]: [ServerSigns] ServerSigns is now disabled.
+[16:34:49] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.13.1
+[16:34:49] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[16:34:49] [Server thread/INFO]: Disabling EssentialsChat v2.21.0-dev+91-e7a4167
+[16:34:49] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+81-cde7184
+[16:34:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:34:49] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.5
+[16:34:50] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1
+[16:34:50] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[16:34:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b699
+[16:34:50] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion multiverse
+[16:34:50] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Multiverse-Core was disabled.
+[16:34:50] [Server thread/INFO]: [MassiveCore] Disabling MassiveCore v2.8.2
+[16:34:50] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.2[0;36;22m] [0;33;1mDisabled[m
+
+[16:34:50] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v2.1.5-SNAPSHOT
+[16:34:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:34:50] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
+[16:34:50] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[16:34:50] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[16:34:50] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[16:34:50] [Server thread/INFO]: [Tebex] Disabling Tebex v2.0.5
+[16:34:50] [Server thread/INFO]: [ColoredSigns] Disabling ColoredSigns v2.0
+[16:34:50] [Server thread/WARN]: [ColoredSigns] ColoredSigns version 2.0 disabling...
+[16:34:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[16:34:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.130
+[16:34:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:34:50] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:34:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:34:50] [Server thread/INFO]: Saving players
+[16:34:50] [Server thread/INFO]: jayden lost connection: Server closed
+[16:34:50] [Server thread/INFO]: jayden left the game.
+[16:34:50] [Server thread/INFO]: Saving worlds
+[16:34:50] [Server thread/INFO]: Saving chunks for level 'Lobby'/Overworld
+[16:34:50] [Server thread/INFO]: Saving chunks for level 'Lobby_nether'/Nether
+[16:34:50] [Server thread/INFO]: Saving chunks for level 'Lobby_the_end'/The End
+[16:34:50] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[16:34:50] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[16:34:50] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether

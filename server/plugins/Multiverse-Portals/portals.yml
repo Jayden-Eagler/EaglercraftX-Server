@@ -1,0 +1,23 @@
+portals:
+  World:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: jayden
+    location: -1.0,65.0,1.0:1.0,69.0,1.0
+    world: Obby_1
+    destination: world
+  Obby1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: jayden
+    location: 231.0,69.0,227.0:231.0,72.0,230.0
+    world: world
+    destination: Obby_1
