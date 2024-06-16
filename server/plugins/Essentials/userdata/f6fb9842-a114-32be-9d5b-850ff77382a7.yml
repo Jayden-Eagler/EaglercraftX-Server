@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718046793328
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718547501651
+  login: 1718547928758
+money: '9999999999910.0'
+last-account-name: jayden
+lastlocation:
+  world: a46bbcfe-d764-4776-b00a-e5929d6ee09b
+  world-name: survival
+  x: -128.31645476397128
+  y: 90.0
+  z: 39.69999998807907
+  yaw: -272.5653991699219
+  pitch: 2.399991273880005
+logoutlocation:
+  world: a46bbcfe-d764-4776-b00a-e5929d6ee09b
+  world-name: survival
+  x: -119.79398557178266
+  y: 90.0
+  z: 28.430710033901224
+  yaw: -359.4156799316406
+  pitch: 35.249996185302734

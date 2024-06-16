@@ -1,0 +1,13 @@
+﻿options:
+  use-permissions: true
+
+on equip:
+  if helmet of player is named "The Kings Crown" and player has permission "king.use":
+    execute console command "lp user {player} parent add king"
+    # Add more permission commands as needed
+
+on unequip:
+  if helmet of player is not named "The Kings Crown" and player has permission "king.use":
+    execute console command "lp user {player} parent remove king"
+    # Remove permissions or perform other actions when unequipping
+
