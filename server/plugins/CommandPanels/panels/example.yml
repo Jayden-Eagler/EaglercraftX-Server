@@ -1,0 +1,16 @@
+panels:
+  power:
+    perm:
+    rows: '6'
+    title: '&l&1Powers'
+    item:
+      '11':
+        material: chest
+        animate0:
+          name: Time
+          lore:
+            - Time power
+          commands:
+            - /time set day
+    commands:
+      - /powers

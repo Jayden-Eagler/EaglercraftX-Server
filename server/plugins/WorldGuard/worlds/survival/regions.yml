@@ -14,7 +14,15 @@ regions:
         min: {x: -136.0, y: 89.0, z: 23.0}
         max: {x: -119.0, y: 113.0, z: 40.0}
         members: {}
-        flags: {passthrough: allow, block-break: deny}
+        flags: {block-break: deny, passthrough: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    house1:
+        min: {x: -130.0, y: 94.0, z: 1.0}
+        max: {x: -122.0, y: 103.0, z: 12.0}
+        members: {}
+        flags: {game-mode: CREATIVE, block-break: deny, passthrough: allow, block-place: deny}
         owners: {}
         type: cuboid
         priority: 0

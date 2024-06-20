@@ -3,6 +3,6 @@
     "uuid": "f6fb9842-a114-32be-9d5b-850ff77382a7",
     "name": "jayden",
     "level": 4,
-    "bypassesPlayerLimit": true
+    "bypassesPlayerLimit": false
   }
 ]

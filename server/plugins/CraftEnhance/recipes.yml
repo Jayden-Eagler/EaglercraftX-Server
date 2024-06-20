@@ -1,0 +1,72 @@
+recipe1:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  permission: null
+  matchtype: MATCH_META
+  hidden: false
+  check_partial_match: false
+  oncraftcommand: null
+  result: §l§1Tech Block
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - REDSTONE
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  allowed_worlds: []
+  shapeless: false
+recipe2:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  permission: null
+  matchtype: MATCH_META
+  hidden: false
+  check_partial_match: false
+  oncraftcommand: null
+  result: §l§9Super Piston
+  recipe:
+  - IRON_PLATE
+  - IRON_PLATE
+  - IRON_PLATE
+  - WATER_BUCKET
+  - PISTON_STICKY_BASE
+  - LAVA_BUCKET
+  - DAYLIGHT_DETECTOR
+  - REDSTONE
+  - DAYLIGHT_DETECTOR
+  allowed_worlds: []
+  shapeless: false
+recipe3:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  permission: null
+  matchtype: MATCH_META
+  hidden: false
+  check_partial_match: false
+  oncraftcommand: null
+  result: §l§1Techplate
+  recipe:
+  - STAINED_GLASS
+  - DIAMOND_BLOCK
+  - STAINED_GLASS
+  - QUARTZ_BLOCK
+  - §l§1Tech Block
+  - QUARTZ_BLOCK
+  - null
+  - §l§9Super Piston
+  - null
+  allowed_worlds: []
+  shapeless: false

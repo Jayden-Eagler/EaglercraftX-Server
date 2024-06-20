@@ -1,0 +1,84 @@
+§l§1Tech Block:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §l§1Tech Block
+    lore:
+    - ':'
+    - §l§1Used For Many Things
+    enchants:
+      DURABILITY: 44464
+    ItemFlags: !!set
+      HIDE_ENCHANTS: null
+      HIDE_ATTRIBUTES: null
+DIAMOND:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+REDSTONE:
+  ==: org.bukkit.inventory.ItemStack
+  type: REDSTONE
+§l§9Super Piston:
+  ==: org.bukkit.inventory.ItemStack
+  type: PISTON_STICKY_BASE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §l§9Super Piston
+    enchants:
+      DURABILITY: 1
+    ItemFlags: !!set
+      HIDE_ENCHANTS: null
+      HIDE_ATTRIBUTES: null
+IRON_PLATE:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_PLATE
+WATER_BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  type: WATER_BUCKET
+PISTON_STICKY_BASE:
+  ==: org.bukkit.inventory.ItemStack
+  type: PISTON_STICKY_BASE
+LAVA_BUCKET:
+  ==: org.bukkit.inventory.ItemStack
+  type: LAVA_BUCKET
+DAYLIGHT_DETECTOR:
+  ==: org.bukkit.inventory.ItemStack
+  type: DAYLIGHT_DETECTOR
+§l§1Techplate:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: §l§1Techplate
+    lore:
+    - '§1:'
+    - §l§1 Strongest Chestplate
+    - §l§1 In the world
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 100
+      PROTECTION_FIRE: 100
+      DURABILITY: 16960
+      PROTECTION_EXPLOSIONS: 100
+      PROTECTION_PROJECTILE: 100
+      THORNS: 100
+    ItemFlags: !!set
+      HIDE_ENCHANTS: null
+      HIDE_ATTRIBUTES: null
+    color:
+      ==: Color
+      RED: 0
+      BLUE: 234
+      GREEN: 255
+STAINED_GLASS:
+  ==: org.bukkit.inventory.ItemStack
+  type: STAINED_GLASS
+  damage: 3
+DIAMOND_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BLOCK
+QUARTZ_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  type: QUARTZ_BLOCK

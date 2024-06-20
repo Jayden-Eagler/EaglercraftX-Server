@@ -1,0 +1,7 @@
+Categorys:
+  default:
+    category:
+      category_item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WORKBENCH
+      name: default

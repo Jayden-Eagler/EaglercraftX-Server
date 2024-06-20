@@ -1,0 +1,22 @@
+# Custom commands - Create your own command names that will call other commands.
+
+#List of custom commands
+#- Add your custom command names here, as the examples provided.
+CustomCommands: #Do not change
+  rank: #This is the custom command that the player can type in: /rank
+    command: 'buy' #This is the actual command that will be used: /buy (Optional) (Do not put / before command)
+    message: 'Example message'  #This is the message that will be sent to the player (Optional)
+    messageprefix:
+
+  ranks: #This is the custom command that the player can type in: /ranks
+    command: 'buy'
+    message: 'Example message'
+    messageprefix:
+
+  discord: #This is the custom command that the player can type in: /discord
+    message: 'Join discord at .......'
+    messageprefix: '&6[&bDiscord&6]'
+
+
+      ### Internal - Do not touch. Can set to 0 to reset config to default values on reload.
+Config Version: 3
