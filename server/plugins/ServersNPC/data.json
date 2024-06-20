@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxODM3MzgzNzUzMSwKICAicHJvZmlsZUlkIiA6ICJlMDMwN2E4MTQ4OTY0MzNkOTE5NmJlMTJiOGVhOTAxMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyb2JvdGp4byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYmI3NGRiNTdkZTdlOTgyNGFhODkxOTk4MGJhMmQ2Mjk4YTc1MGY0ZWNkMGMxNTQzMTg3NzExNGViMDM1N2RlIgogICAgfQogIH0KfQ==",
+    "signature": "Uxh9IWIybKF8Oinkm0xNPgKLNOtkgz0j8IbGYYFw1hF+ozimk6RBqOKP+2cKy0T/O9tLhDgV05FAUmGswBcoYVKgJ+hz7t0hMKnvm6/Kz04QtoTg4XTOlQD7IB90yxNxUIhf1v5gmRoHR1hnu1eA66r8+lgLPbeUFReHfYQhr3Og15e6bwRxDRlJna40ST8Mu0Htf/OKcLhFMZbdnsQpp+GrtLlngOZmrvRFcS5xaxs7A6fVDOyEpaehohK3wctGNwAsgDfe9wBPskXicQk05q0owQVdOkGeFeA2ucx01U7Gafwa+pwKsmkHoU8rIocdoeL44U72ybhwMet9TekJ7I2a+ojUKKYy52XoIF3NK+8WIrUD3LmZyWkeJafA3E1539Cyj4COrKT//ZndDm3KkkEOxnaVLeRa3d6E3LWEL3fZYXEhuMLlApdDpbjEcFYyB+vJnL1KgEk3rvgOq69X3rnN2h8QD7siTVird7zanrUttPQfS7igSjeJKOnGkENWdzvnK6hIkuJpp/fdSuCkMvpGhHsgtRjjDCZfxT7VjY+vCkRA0CY5jcGcFrzhAdYaG6psTaiIkdEQYqD9rX7KmtPqzVbdKIgCOQr0zjp4TJS6KH7TlsXCcKl3q/rqdOvGQLYrSfu20u+er1vhwNP0qL18GRg8ZJ4+binJkZdilfA=",
+    "skinName": "Steve",
+    "location": {
+      "world": "survival",
+      "x": -123.5,
+      "y": 90.0,
+      "z": 36.5,
+      "yaw": -270.01562,
+      "pitch": 9.899993
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&l&1Hotel_Manger"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  }
+]
