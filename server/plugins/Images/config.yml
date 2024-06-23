@@ -9,7 +9,7 @@
 # floating without anything behind them while also
 # not rendering blank space on an image.
 # NOTE: only supported in 1.16+
-invisible-frames: true
+invisible-frames: false
 
 # Image sections within this range will be visible to players
 show-distance: 64

@@ -1,0 +1,15 @@
+MoreItems:
+  Strike:
+    Identifier: Strike
+    Name: '&6Strike'
+    Material: GOLD_SWORD:0
+    Powers:
+    - command_RIGHT_shock
+  speed:
+    Identifier: speed
+    Name: '&6Flash Boots'
+    Material: LEATHER_BOOTS:0
+    Powers:
+    - potionself_HOLD_SPEED_1_30
+    - teleport_RIGHT_10
+    - teleport_RIGHT_1000

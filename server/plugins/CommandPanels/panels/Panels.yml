@@ -1,0 +1,163 @@
+panels:
+  power:
+    perm: powers.use
+    rows: '6'
+    title: '&l&1Powers'
+    empty: diamond_block
+    item:
+      '0':
+        material: hay_block
+        commands:
+          - time set day
+        lore:
+          - '&1Set the time to day'
+        name: '&1Time control: day'
+      '1':
+        material: book
+        commands:
+          - mv tp h
+        name: '&1SuperBook'
+        lore:
+          - '&1Go to heaven'
+      '2':
+        material: bookshelf
+        name: '&1world'
+        lore:
+          - '&1Tp to world'
+        commands:
+          - mv tp world
+      '3':
+        material: diamond_sword
+        name: '&1survival'
+        lore:
+          - '&1Tp to survival'
+        commands:
+          - mv tp survival
+      '4':
+        material: diamond_block
+        commands:
+          - cp King %player_name%
+        name: '&6King'
+        lore:
+          - '&6 use Kingly powers'
+      '7':
+        material: barrier
+        name: '&1Kill nearest player'
+        lore:
+          - '&1kills the nearest player'
+        commands:
+          - 'minecraft:kill @p'
+      '9':
+        material: anvil
+        name: '&1Time control: night'
+        lore:
+          - '&1Set the time to night'
+        commands:
+          - time set midnight
+      '20':
+        material: iron_trapdoor
+        commands:
+          - weather storm
+        name: '&1Stromy'
+        lore:
+          - '&1Make it rain'
+      '21':
+        material: gold_ingot
+        commands:
+          - weather clear
+        name: '&1sunny'
+        lore:
+          - '&1Have a good day'
+      '24':
+        material: barrier
+        name: '&1Kill all mobs in the world'
+        lore:
+          - '&1Destroy those mobs'
+        commands:
+          - killall all
+      '25':
+        material: bread
+        name: '&1Heal and Feed'
+        lore:
+          - '&1Heal yourself and feed yourself'
+        commands:
+          - heal
+          - feed
+      '32':
+        material: iron_ingot
+        name: '&1Giant summoner'
+        lore:
+          - '&1Destroy the world with giants'
+        commands:
+          - summon Giant
+      '38':
+        material: bone
+        name: '&1Spawn the enderdragon'
+        lore:
+          - '&1 destroy the world'
+        commands:
+          - 'title @a title ["A EnderDragon"]'
+          - 'title @a subtitle ["was spawned"]'
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon EnderDragon
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon LigtningBolt
+          - summon LigtningBolt
+      '40':
+        material: stone_button
+        name: Test stuff
+        lore:
+          - '&1Click to go to testing'
+        commands:
+          - mv tp test
+      '42':
+        material: beacon
+        name: '&1Home'
+        lore:
+          - '&1Sends you to last home location'
+        commands:
+          - home
+      '45':
+        material: tnt
+        name: '&1Spawn tnt'
+        lore:
+          - '&1DESTROY EVERYTHING'
+        commands:
+          - summon PrimedTnt
+      '53':
+        material: bedrock
+        name: '&l&1Op Only'
+        lore:
+          - '&1OP weapons and things'
+        commands:
+          - si
+    commands:
+      - powers
+  King:
+    perm: king.use
+    rows: '3'
+    title: '&6King''s power'
+    empty: gold_block
+    item:
+      '0':
+        material: blaze_powder
+        name: '&4Spe&6ed'
+        lore:
+          - '&4Go super&6 fast'
+        commands:
+          - effect %player_name% 1 60 3
+      '3':
+        material: bone
+        name: '&6Become storng'
+        lore:
+          - '&6become the strongest man alive'
+        commands:
+          - effect %player_name% 5 60 1
+    commands:
+      - king
