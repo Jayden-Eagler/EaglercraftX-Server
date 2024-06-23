@@ -4,3 +4,4 @@ displayAttributesInDescription: true
 displayCooldown: true
 itemsRequirePermission: false
 joinItems:
+- someItem
