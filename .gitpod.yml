@@ -1,3 +1,5 @@
 ports:
   - port: 8081
     onOpen: ignore
+  - port: 8123
+    onOpen: ignore

@@ -7,9 +7,16 @@ MoreItems:
     - command_RIGHT_shock
   speed:
     Identifier: speed
-    Name: '&6Flash Boots'
+    Name: '&6Tech Boots'
     Material: LEATHER_BOOTS:0
     Powers:
     - potionself_HOLD_SPEED_1_30
-    - teleport_RIGHT_10
-    - teleport_RIGHT_1000
+    - teleport_LEFT_10_10
+    Color: 16711680
+  Uni:
+    Identifier: Uni
+    Name: '&1Techplate'
+    Material: LEATHER_CHESTPLATE:0
+    Powers:
+    - command_LEFT_shock
+    - command_LEFT_effect target poison 60
