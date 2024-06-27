@@ -20,3 +20,8 @@ MoreItems:
     Powers:
     - command_LEFT_shock
     - command_LEFT_effect target poison 60
+    - command_LEFT_tnt summon
+    - command_LEFT_tnt summon
+    - command_LEFT_tnt summon
+    - command_LEFT_tnt summon
+    Color: 16711680

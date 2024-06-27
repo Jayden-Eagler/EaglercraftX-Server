@@ -1,0 +1,26 @@
+Programmas:
+  Cameras:
+    item: chest
+    name: '&fCameras'
+    command: $CAMERA
+    KeepOpen: true
+  Mail:
+    item: book
+    name: '&fMail'
+    command: $Mail
+    KeepOpen: true
+  Terminal:
+    item: sign
+    name: '&fTerminal'
+    command: $TERMINAL
+    KeepOpen: false
+  Uni:
+    item: emerald
+    name: '&1Unibeam'
+    command: mi give Uni
+    KeepOpen: false
+  Powers:
+    item: bedrock
+    name: '&1Powers'
+    command: cp power
+    KeepOpen: false

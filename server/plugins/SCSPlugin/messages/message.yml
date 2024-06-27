@@ -1,0 +1,42 @@
+Messages:
+  Monitor:
+    WrongPassword: '&cWrong password! &4Turning monitor off.'
+    CorrectPassword: '&2Correct password. Monitor has been unlocked.'
+    PasswordHasBeenSet: '&3Password has been set. You can now use the monitor.'
+    Bootcamp:
+      AccessGranted:
+        first: '&cYou have access by force.'
+        second: '&cTerminal gave access granted.'
+    AddCam:
+      done: '&2Monitor has been connected to a extra camera: '
+    data:
+      setowner:
+        first: '&3Type the name of the player whose computer it is.'
+        notexists: '&cOops, The player has never been online.'
+        done: '&aYou have successfully set the owner of the computer.'
+        instructions: '&3You can now open the computer: Installation complete.'
+    Register:
+      Password: '&3You need to enter a password for the monitor. Type in the chat
+        your password...'
+      Exists: '&c&lOops&7, sorry but this block is already a computer.'
+      First: '&7Now click on the computer to complete the installation.'
+      CommandError: '&bOops&7, please make sure you give the name of the computer
+        owner.'
+      Camera: '&cOops&7, you need to type &c/computer camera add (camera)&7.'
+  Camera:
+    Shift: '&7Press LShfit to close the connection to the camera.'
+  Command:
+    NameAlreadyUsed: '&cSorry, this name has already been used.'
+    SorryTryThis: '&cSorry, try to use %import%'
+  Cameras:
+    AccessDeny: '&cSorry but you dont have acces to this camera!'
+    NotExist: '&4ERROR! &cThe camera you want does not exist :('
+  Email:
+    EnterMail: '&7Please enter the players name:'
+    Subject: '&7Please enter the subject:'
+    Mail: '&7Please enter the message:'
+    Sended: '&2Done&7, your email has been send.'
+  User:
+    NotExists: '&7This user has never been online. Please enter a vailed username:'
+  Other:
+    NoPerms: '&4&lERROR &8&l» &fYou don''t have permissions do do that.'

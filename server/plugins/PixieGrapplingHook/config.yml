@@ -1,0 +1,21 @@
+# 
+# PixieGrapplingHook by the PixieWorkshop #
+GrapplingHook:
+  speed: 14
+  cooldown: 0
+  name: '&aGrappling Hook'
+  lore:
+  - §7Let out the grappling hook then
+  - §7reel it in to be pulled towards it!
+Recipe:
+  use: true
+  materials:
+    a: FISHING_ROD
+    b: STRING
+    c: STICK
+  recipe:
+    '0': '  b'
+    '1': ' ab'
+    '2': 'c  '
+DisableFallDamage: true
+config-version: 3

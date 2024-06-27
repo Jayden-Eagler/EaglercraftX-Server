@@ -1,0 +1,20 @@
+Computer:
+  '21463158':
+    loc:
+      x: 214
+      y: 63
+      z: 158
+      world: world
+    cameras: []
+    owner: jayden
+    password: robotjxo1!
+  '22635145':
+    loc:
+      x: 226
+      y: 35
+      z: 145
+      world: world
+    cameras:
+    - computer
+    owner: jayden
+    password: robotjxo

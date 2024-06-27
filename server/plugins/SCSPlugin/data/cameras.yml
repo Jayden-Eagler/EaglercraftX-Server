@@ -1,0 +1,40 @@
+Cameras:
+  computer:
+    loc:
+      world: world
+      x: 225
+      y: 34
+      z: 160
+      yaw: 181.64996
+      pitch: 9.299993
+    isDestroyd: false
+Ips:
+  '34':
+    '192':
+      '68':
+        '386':
+          Location:
+            world: world
+            x: 228
+            y: 34
+            z: 158
+          Connected: computer
+    '194':
+      '68':
+        '385':
+          Location:
+            world: world
+            x: 225
+            y: 34
+            z: 160
+          Connected: computer
+  '35':
+    '195':
+      '70':
+        '389':
+          Location:
+            world: world
+            x: 229
+            y: 35
+            z: 160
+          Connected: computer
