@@ -1,12 +1,57 @@
 Cameras:
-  computer:
+  hbalcony:
     loc:
       world: world
-      x: 225
-      y: 34
-      z: 160
-      yaw: 181.64996
-      pitch: 9.299993
+      x: 216
+      y: 31
+      z: 151
+      yaw: 1.5682373
+      pitch: 24.8309
+    isDestroyd: false
+  ha:
+    loc:
+      world: world
+      x: 211
+      y: 30
+      z: 151
+      yaw: 281.89996
+      pitch: 8.550009
+    isDestroyd: false
+  hina:
+    loc:
+      world: world
+      x: 221
+      y: 31
+      z: 149
+      yaw: 95.44989
+      pitch: 6.4500084
+    isDestroyd: false
+  hina2:
+    loc:
+      world: world
+      x: 211
+      y: 31
+      z: 147
+      yaw: 313.54993
+      pitch: 4.0500083
+    isDestroyd: false
+  hinah:
+    loc:
+      world: world
+      x: 214
+      y: 32
+      z: 145
+      yaw: 149.59985
+      pitch: 39.149994
+    isDestroyd: false
+  hinasr:
+    loc:
+      world: world
+      x: 212
+      y: 25
+      z: 133
+      yaw: 42.199707
+      pitch: 16.199993
     isDestroyd: false
 Ips:
   '34':
@@ -38,3 +83,70 @@ Ips:
             y: 35
             z: 160
           Connected: computer
+  '31':
+    '182':
+      '62':
+        '367':
+          Location:
+            world: world
+            x: 216
+            y: 31
+            z: 151
+          Connected: hbalcony
+    '188':
+      '62':
+        '375':
+          Location:
+            world: world
+            x: 218
+            y: 31
+            z: 157
+          Connected: hdoor
+    '180':
+      '62':
+        '370':
+          Location:
+            world: world
+            x: 221
+            y: 31
+            z: 149
+          Connected: hina
+    '178':
+      '62':
+        '358':
+          Location:
+            world: world
+            x: 211
+            y: 31
+            z: 147
+          Connected: hina2
+  '30':
+    '181':
+      '60':
+        '362':
+          Location:
+            world: world
+            x: 211
+            y: 30
+            z: 151
+          Connected: ha
+  '32':
+    '177':
+      '64':
+        '359':
+          Location:
+            world: world
+            x: 214
+            y: 32
+            z: 145
+          Connected: hinah
+  '25':
+    '158':
+      '50':
+        '345':
+          Location:
+            world: world
+            x: 212
+            y: 25
+            z: 133
+          Connected: hinasr

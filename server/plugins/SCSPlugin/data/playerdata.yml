@@ -1,8 +1,0 @@
-jayden:
-  Name: jayden
-  UUID: !!java.util.UUID {}
-  Data:
-    Emails:
-      Subject: []
-      Mail: []
-      Sender: []
