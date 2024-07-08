@@ -1,13 +1,4 @@
 Cameras:
-  hbalcony:
-    loc:
-      world: world
-      x: 216
-      y: 31
-      z: 151
-      yaw: 1.5682373
-      pitch: 24.8309
-    isDestroyd: false
   ha:
     loc:
       world: world
@@ -35,23 +26,32 @@ Cameras:
       yaw: 313.54993
       pitch: 4.0500083
     isDestroyd: false
-  hinah:
+  hbalcony:
     loc:
       world: world
-      x: 214
-      y: 32
-      z: 145
-      yaw: 149.59985
-      pitch: 39.149994
+      x: 216
+      y: 30
+      z: 151
+      yaw: 327.1997
+      pitch: 3.5999923
     isDestroyd: false
   hinasr:
     loc:
       world: world
-      x: 212
-      y: 25
+      x: 211
+      y: 24
       z: 133
-      yaw: 42.199707
-      pitch: 16.199993
+      yaw: 1.6994629
+      pitch: -4.9500084
+    isDestroyd: false
+  hinah:
+    loc:
+      world: world
+      x: 211
+      y: 30
+      z: 144
+      yaw: 210.74997
+      pitch: 2.0999928
     isDestroyd: false
 Ips:
   '34':
@@ -120,6 +120,15 @@ Ips:
             y: 31
             z: 147
           Connected: hina2
+    '176':
+      '62':
+        '359':
+          Location:
+            world: world
+            x: 214
+            y: 31
+            z: 145
+          Connected: hinah
   '30':
     '181':
       '60':
@@ -130,6 +139,22 @@ Ips:
             y: 30
             z: 151
           Connected: ha
+        '367':
+          Location:
+            world: world
+            x: 216
+            y: 30
+            z: 151
+          Connected: hbalcony
+    '174':
+      '60':
+        '355':
+          Location:
+            world: world
+            x: 211
+            y: 30
+            z: 144
+          Connected: hinah
   '32':
     '177':
       '64':
@@ -148,5 +173,25 @@ Ips:
             world: world
             x: 212
             y: 25
+            z: 133
+          Connected: hinasr
+  '23':
+    '156':
+      '46':
+        '345':
+          Location:
+            world: world
+            x: 212
+            y: 23
+            z: 133
+          Connected: hinasr
+  '24':
+    '157':
+      '48':
+        '344':
+          Location:
+            world: world
+            x: 211
+            y: 24
             z: 133
           Connected: hinasr

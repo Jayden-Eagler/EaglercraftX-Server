@@ -1,6 +1,6 @@
 Info: This plugin is made by JonathanPTM.
 Permissions:
   CustomPrefix:
-    active: false
-    prefix: scs
+    active: true
+    prefix: ComputerCraft
 Emails: []

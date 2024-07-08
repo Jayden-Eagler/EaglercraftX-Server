@@ -35,7 +35,7 @@ Messages:
     EnterMail: '&7Please enter the players name:'
     Subject: '&7Please enter the subject:'
     Mail: '&7Please enter the message:'
-    Sended: '&2Done&7, your email has been send.'
+    Sended: '&2Done&7, your email has been sent.'
   User:
     NotExists: '&7This user has never been online. Please enter a vailed username:'
   Other:

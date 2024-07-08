@@ -2,7 +2,7 @@ Computer:
   '21463158':
     loc:
       x: 214
-      y: 63
+      y: 100000000000
       z: 158
       world: world
     cameras: []
@@ -17,5 +17,9 @@ Computer:
     cameras:
     - hinasr
     - hina2
+    - hina
+    - hinah
+    - hbalcony
+    - ha
     owner: jayden
     password: robotjxo

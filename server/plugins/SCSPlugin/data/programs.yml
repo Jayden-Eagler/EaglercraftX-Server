@@ -21,6 +21,6 @@ Programmas:
     KeepOpen: false
   Powers:
     item: bedrock
-    name: '&1Powers'
-    command: cp power
+    name: '&1Illegal'
+    command: si
     KeepOpen: false
