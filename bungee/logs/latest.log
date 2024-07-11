@@ -252,3 +252,6 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [22:37:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50056]: Logged in as 'jayden'
 [22:37:14] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50056|jayden] -> UpstreamBridge has connected
 [22:37:14] [Netty Worker IO Thread #1/INFO]: [jayden|/[0:0:0:0:0:0:0:1%0]:50056] <-> ServerConnector [lobby] has connected
+[23:45:36] [Netty Worker IO Thread #1/INFO]: [jayden] disconnected with: Server closed
+[23:45:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50056|jayden] -> UpstreamBridge has disconnected
+[23:45:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50056|jayden] <-> DownstreamBridge <-> [lobby] has disconnected
