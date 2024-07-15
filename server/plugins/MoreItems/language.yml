@@ -12,25 +12,25 @@ ConsumeEventType: consumed
 Durability: ''
 Armor: ''
 RequiredLevel: '&cRequires Level: %level%'
-arrow: 
-command: 
-fire: 
-fireball: 
-heal: 
-lightning: 
-potionself: 
-potiontarget: 
-consume: 
-snowball: 
-teleport: 
-throw: 
-tnt: 
-wither: 
-backstab: 
 range: 'Range: &c%range%'
 speed: 'Speed: &c%speed%'
 dodge: 'Dodge Chance: &c%chance%'
 immune: Immune to %immune%
 soulbound: Soulbound to %name%
-durabilitycost: 
 breakspeed: ''
+arrow: Fires an arrow when %event%
+command: Uses /%command% when %event%
+fire: Sets the target on fire for %duration% ticks when %event%
+fireball: Fires a %type% fireball when %event%
+heal: Heals %amount% hearts when %event%
+lightning: Strikes lightning at the target when %event%
+potionself: Gives %type% %amplifier% for %duration%s when %event%
+potiontarget: Gives target %type% %amplifier% for %duration%s when %event%
+consume: Consumes %amount% %material% when %event%
+snowball: Fires a snowball when %event%
+teleport: Teleports %distance% blocks when %event%
+throw: Throws when %event%
+tnt: Throws tnt when %event%
+wither: Fires a wither skull when %event%
+backstab: Can backstab
+durabilitycost: Takes %amount% durability when %event%
