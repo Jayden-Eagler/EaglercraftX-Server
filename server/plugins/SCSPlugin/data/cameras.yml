@@ -53,6 +53,15 @@ Cameras:
       yaw: 210.74997
       pitch: 2.0999928
     isDestroyd: false
+  house:
+    loc:
+      world: world
+      x: 192
+      y: 84
+      z: 139
+      yaw: 335.60596
+      pitch: 38.099995
+    isDestroyd: false
 Ips:
   '34':
     '192':
@@ -195,3 +204,13 @@ Ips:
             y: 24
             z: 133
           Connected: hinasr
+  '84':
+    '223':
+      '168':
+        '331':
+          Location:
+            world: world
+            x: 192
+            y: 84
+            z: 139
+          Connected: house

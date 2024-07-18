@@ -1,15 +1,15 @@
-[17:39:39] [main/INFO]: Using mbed TLS based native cipher.
-[17:39:39] [main/INFO]: Using zlib based native compressor.
-[17:39:39] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[17:39:40] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[17:39:40] [main/INFO]: Epoll is working, utilising it!
-[17:39:40] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[17:39:40] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[17:39:40] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[17:39:40] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[17:39:40] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[17:39:40] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[17:39:40] [main/WARN]: Could not load plugin from file plugins/Multiverse-Inventories-2.5.0-SNAPSHOT.jar
+[16:42:36] [main/INFO]: Using mbed TLS based native cipher.
+[16:42:36] [main/INFO]: Using zlib based native compressor.
+[16:42:36] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[16:42:36] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[16:42:36] [main/INFO]: Epoll is working, utilising it!
+[16:42:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[16:42:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[16:42:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[16:42:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[16:42:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[16:42:37] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[16:42:37] [main/WARN]: Could not load plugin from file plugins/Multiverse-Inventories-2.5.0-SNAPSHOT.jar
 org.yaml.snakeyaml.constructor.ConstructorException: Cannot create property=awareness for JavaBean=PluginDescription(name=Multiverse-Inventories, main=com.onarandombox.multiverseinventories.MultiverseInventories, version=2.5.0-SNAPSHOT-b418, author=dumptruckman, depends=[], softDepends=[], file=null, description=null, libraries=[])
  in 'reader', line 1, column 1:
     name: Multiverse-Inventories
@@ -65,8 +65,8 @@ Caused by: org.yaml.snakeyaml.error.YAMLException: Invalid tag: !@UTF8
 	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:299) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	... 12 more
-[17:39:40] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:40] [main/WARN]: Error loading plugin WorldEdit
+[16:42:37] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:37] [main/WARN]: Error loading plugin WorldEdit
 java.lang.NoClassDefFoundError: org/bukkit/command/TabCompleter
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -86,7 +86,7 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.command.TabCompleter
 	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[17:39:40] [main/WARN]: Error loading plugin Essentials
+[16:42:37] [main/WARN]: Error loading plugin Essentials
 java.lang.NoClassDefFoundError: org/bukkit/plugin/Plugin
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -122,28 +122,28 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.Plugin
 	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 29 more
-[17:39:40] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:40] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[17:39:40] [main/WARN]: :>  
-[17:39:40] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[17:39:40] [main/WARN]: :>  
-[17:39:40] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[17:39:40] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[17:39:40] [main/WARN]: :>  apart from the versions listed below:
-[17:39:40] [main/WARN]: :>  
-[17:39:40] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
-[17:39:40] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
-[17:39:40] [main/WARN]: :>  - FlameCord: 1.1.1
-[17:39:40] [main/WARN]: :>  
-[17:39:40] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[17:39:40] [main/WARN]: :>  
-[17:39:40] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[17:39:40] [main/WARN]: :>  
-[17:39:40] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[17:39:40] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[17:39:42] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[17:39:42] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
-[17:39:42] [main/WARN]: Error loading plugin GadgetsMenu
+[16:42:37] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:37] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[16:42:37] [main/WARN]: :>  
+[16:42:37] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[16:42:37] [main/WARN]: :>  
+[16:42:37] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[16:42:37] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[16:42:37] [main/WARN]: :>  apart from the versions listed below:
+[16:42:37] [main/WARN]: :>  
+[16:42:37] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[16:42:37] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[16:42:37] [main/WARN]: :>  - FlameCord: 1.1.1
+[16:42:37] [main/WARN]: :>  
+[16:42:37] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[16:42:37] [main/WARN]: :>  
+[16:42:37] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[16:42:37] [main/WARN]: :>  
+[16:42:37] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[16:42:37] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[16:42:39] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[16:42:39] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[16:42:39] [main/WARN]: Error loading plugin GadgetsMenu
 java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -163,9 +163,9 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
 	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[17:39:42] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:42] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:42] [main/WARN]: Error loading plugin SuperVanish
+[16:42:39] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/WARN]: Error loading plugin SuperVanish
 java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -185,7 +185,7 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
 	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[17:39:42] [main/WARN]: Error loading plugin Multiverse-Portals
+[16:42:39] [main/WARN]: Error loading plugin Multiverse-Portals
 java.lang.NoClassDefFoundError: com/onarandombox/MultiverseCore/api/MVPlugin
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -205,9 +205,9 @@ Caused by: java.lang.ClassNotFoundException: com.onarandombox.MultiverseCore.api
 	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[17:39:42] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:42] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:42] [main/WARN]: Error loading plugin Multiverse-Core
+[16:42:39] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/WARN]: Error loading plugin Multiverse-Core
 java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -227,7 +227,7 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
 	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[17:39:42] [main/WARN]: Could not load server icon
+[16:42:39] [main/WARN]: Could not load server icon
 java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 	at net.md_5.bungee.api.Favicon.create(Favicon.java:65) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:89) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
@@ -235,23 +235,23 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:288) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
-[17:39:42] [main/WARN]: Forced host server pvp is not defined
-[17:39:42] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:42] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:42] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[17:39:42] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[17:39:43] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[17:39:43] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
-[17:39:43] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:43] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:43] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:43] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:39:43] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[17:41:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49050]: Connected via websocket
-[17:41:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49050]: Origin header is http://localhost:8081
-[17:41:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49050]: Logged in as 'jayden'
-[17:41:26] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49050|jayden] -> UpstreamBridge has connected
-[17:41:26] [Netty Worker IO Thread #1/INFO]: [jayden|/[0:0:0:0:0:0:0:1%0]:49050] <-> ServerConnector [lobby] has connected
-[17:49:19] [Netty Worker IO Thread #1/INFO]: [jayden] disconnected with: Server closed
-[17:49:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49050|jayden] -> UpstreamBridge has disconnected
-[17:49:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49050|jayden] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:42:39] [main/WARN]: Forced host server pvp is not defined
+[16:42:39] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[16:42:39] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[16:42:39] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[16:42:39] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[16:42:39] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:39] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[16:43:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60794]: Connected via websocket
+[16:43:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60794]: Origin header is http://localhost:8081
+[16:43:39] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60794]: Logged in as 'jayden'
+[16:43:39] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60794|jayden] -> UpstreamBridge has connected
+[16:43:39] [Netty Worker IO Thread #1/INFO]: [jayden|/[0:0:0:0:0:0:0:1%0]:60794] <-> ServerConnector [lobby] has connected
+[17:35:04] [Netty Worker IO Thread #1/INFO]: [jayden] disconnected with: Server closed
+[17:35:04] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60794|jayden] -> UpstreamBridge has disconnected
+[17:35:04] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60794|jayden] <-> DownstreamBridge <-> [lobby] has disconnected
